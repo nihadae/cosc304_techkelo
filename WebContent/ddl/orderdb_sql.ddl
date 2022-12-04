@@ -204,7 +204,7 @@ INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (4,
 INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (5, 1, 6, 2199.99);
 INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (6, 1, 3, 2999.99);
 INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (7, 1, 1, 1949.99);
-INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (8, 1, 0, 1299.99);
+INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (8, 1, 10, 1299.99);
 INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (9, 1, 2, 649.99);
 INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (10, 1, 3, 1499.99);
 INSERT INTO productInventory(productId, warehouseId, quantity, price) VALUES (11, 1, 3, 1599.99);
@@ -246,5 +246,5 @@ INSERT INTO customer (firstName, lastName, email, phonenum, address, city, state
 INSERT INTO customer (firstName, lastName, email, phonenum, address, city, state, postalCode, country, userid, password) VALUES ('Joshua', 'Ndala', 'josh@gmail.com', '2222222222', '765 Academy Way', 'Vancouver', 'BC', 'V1V0C4', 'Canada', 'joshndl' , 'pass123');
 INSERT INTO customer (firstName, lastName, email, phonenum, address, city, state, postalCode, country, userid, password) VALUES ('Anay', 'Legend', 'anay@gmail.com', '3333333333', '985 Academy Way', 'Winnipeg', 'MB', 'V1C7C4', 'Canada', 'anayuser' , 'pass123');
 INSERT INTO customer (firstName, lastName, email, phonenum, address, city, state, postalCode, country, userid, password) VALUES ('Brandon', 'Gem', 'brandon@gmail.com', '4444444444', '452 Academy Way', 'Toronto', 'ON', 'MXB72A', 'Canada', 'brandonuser' , 'pass123');
-INSERT INTO customer (userid, password) VALUES ('admin' , 'admin123');
+INSERT INTO customer (firstName, lastName, email, phonenum, address, city, state, postalCode, country, userid, password) VALUES ('General', 'Manager', 'admin@info.com', '1234567890', '3333 University Way', 'Kelowna', 'BC', 'V1V0V4', 'Canada', 'admin' , 'admin123');
 

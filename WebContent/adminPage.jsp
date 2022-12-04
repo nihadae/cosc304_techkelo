@@ -15,7 +15,7 @@
 
 	  
       <%
-      out.println("<div class='displayMain'><h2 class='text-center'>Welcome <span class='text-muted'>"+session.getAttribute("authenticatedUser").toString()+"</span>!</h2><h1 class='text-center'>Long time no see</h1></div>");
+      out.println("<div class='displayMain'><img src='img/dollar.gif' style='width: 300px;'><h2 class='text-center'>Welcome <span class='text-muted'>"+session.getAttribute("authenticatedUser").toString()+"</span>!</h2><h1 class='text-center'>Long time no see</h1></div>");
       %>
       <style>
         .displayMain{
